@@ -15,9 +15,12 @@ namespace WebApp.Controllers
     {
        
         public IActionResult Index()
-        {           
+        {
+            DbHelper dbHelper = new DbHelper();
+            dbHelper.ModefyingRelatedDataWithTracking();
 
-            InsertSamurai();
+            //var dynamicList = dbHelper.ProjectDynamic();
+            //InsertSamurai();
             //InsertMultipleSamurais();
             //SimpleSamuraiQuery();
             //MoreQueryes();
@@ -28,9 +31,7 @@ namespace WebApp.Controllers
             //DeleteWhileTracking();
             //DeleteMany()
             //DeleteWhileNotTracking();
-
-            DbHelper dbHelper = new DbHelper();
-            dbHelper.DeleteUsingID(2);
+            //DeleteUsingID(2);
 
             return View();
         }

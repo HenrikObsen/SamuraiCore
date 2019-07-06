@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SamuraiApp.Domain
+﻿namespace SamuraiApp.Domain
 {
     public class Quote
     {
@@ -10,6 +6,5 @@ namespace SamuraiApp.Domain
         public string Text { get; set; }
         public Samurai Samurai { get; set; }
         public int SamuraiId { get; set; }
-
     }
 }

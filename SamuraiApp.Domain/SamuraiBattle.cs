@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SamuraiApp.Domain
+﻿namespace SamuraiApp.Domain
 {
-    //Mange til mange relation
     public class SamuraiBattle
     {
         public int SamuraiId { get; set; }

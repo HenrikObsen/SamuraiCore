@@ -5,11 +5,25 @@
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="Views\Quotes\Create.cshtml" />
+    <None Include="Views\Quotes\Delete.cshtml" />
+    <None Include="Views\Quotes\Details.cshtml" />
+    <None Include="Views\Quotes\Edit.cshtml" />
+    <None Include="Views\Quotes\Index.cshtml" />
+    <None Include="Views\Samurais\Create.cshtml" />
+    <None Include="Views\Samurais\Delete.cshtml" />
+    <None Include="Views\Samurais\Details.cshtml" />
+    <None Include="Views\Samurais\Edit.cshtml" />
+    <None Include="Views\Samurais\Index.cshtml" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
   </ItemGroup>
 
 
